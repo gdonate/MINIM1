@@ -1,6 +1,6 @@
 package edu.upc.dsa;
 
-import edu.upc.dsa.models.Brote;
+import edu.upc.dsa.models.User;
 import edu.upc.dsa.models.Caso;
 import org.apache.log4j.Logger;
 
