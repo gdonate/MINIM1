@@ -3,7 +3,6 @@ package edu.upc.dsa;
 import edu.upc.dsa.models.Lab;
 import edu.upc.dsa.models.Muestra;
 import edu.upc.dsa.models.User;
-import edu.upc.dsa.models.Caso;
 import org.apache.log4j.Logger;
 
 import java.util.*;

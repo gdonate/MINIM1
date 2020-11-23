@@ -123,9 +123,9 @@ public class LabService {
 
         Date fechaMuestra = new Date(diaMuestra,mesMuestra,añoMuestra);
 
-        Muestra muestra = this.cm.afegirMuestra( name, surname, idMuestra, diaMuestra, mesMuestra,añoMuestra,clasificacion,comentario,idUser);
+        Muestra muestra = this.tm.afegirMuestra( name, surname, idMuestra, diaMuestra, mesMuestra,añoMuestra,clasificacion,comentario,idUser);
 
-        List  casos = this.cm.getBrote(idBrote).getCasosList();
+        List  casos = this.tm.getUser(idUser).getMuestrasList();
 
         GenericEntity<List<Muestra>> entity = new GenericEntity<List<Muestra>>(muestras) {
         };
